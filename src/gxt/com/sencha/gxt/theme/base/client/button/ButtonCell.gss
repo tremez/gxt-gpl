@@ -1,0 +1,165 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+@external x-toolbar-mark;
+
+.button {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.hasWidth .mainTable {
+  width: 100%;
+}
+
+.button td {
+  text-align: center;
+}
+
+.button td img {
+  float: left;
+}
+
+.iconTop td img, 
+.iconBottom td img {
+  float: none;
+}
+
+.iconWrap {
+  padding: 0 2px;
+}
+
+.text {
+  padding: 0 2px;
+  font-family: Tahoma,Arial,Verdana,sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.iconWrap div {
+  font-size: 1px;
+}
+
+.small .iconLeft td, 
+.small .iconRight td, 
+.small .noIcon td {
+  line-height: 18px;
+}
+
+.medium .iconTop .iconWrap div, 
+.medium .iconBottom .iconWrap div {
+  height: 20px;
+}
+
+.medium .iconLeft td, 
+.medium .iconRight td, 
+.medium .noIcon td {
+  line-height: 24px;
+}
+
+.medium .iconTop .iconWrap div, 
+.medium .iconBottom .iconWrap div {
+  height: 26px;
+}
+
+.large .iconLeft td, 
+.large .iconRight td, 
+.large .noIcon td, 
+.large .iconWrap div {
+  line-height: 32px;
+}
+
+.large .iconTop .iconWrap div, 
+.large .iconBottom .iconWrap div {
+  height: 34px;
+}
+
+.split {
+  gwt-sprite: "split";
+  width: auto;
+  height: auto;
+}
+
+.split {
+  background-position: right center;
+  padding-right: 14px;
+  background-repeat: no-repeat;
+}
+
+.splitBottom {
+  gwt-sprite: "splitBottom";
+  width: auto;
+  height: auto;
+}
+
+.splitBottom {
+  gwt-image: "splitBottom";
+  background-position: center bottom;
+  padding-bottom: 14px;
+  background-repeat: no-repeat;
+}
+
+.over {
+}
+
+.arrow {
+  gwt-sprite: "arrow";
+  width: auto;
+  height: auto;
+}
+
+.arrow {
+  padding-right: 10px;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.arrowBottom {
+  gwt-sprite: "arrowBottom";
+  width: auto;
+  height: auto;
+}
+
+.arrowBottom {
+  background-position: center bottom;
+  padding-bottom: 14px;
+  background-repeat: no-repeat;
+}

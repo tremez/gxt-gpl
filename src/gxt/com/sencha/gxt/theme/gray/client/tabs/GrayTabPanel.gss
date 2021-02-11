@@ -1,0 +1,246 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+
+.tabStripTop .tabRight {
+  gwt-sprite: "tabLeft";
+  padding-left: 10px;
+  width: auto;
+  height: auto;
+}
+
+.tabStripTop .tabLeft {
+  gwt-sprite: "tabRight";
+  padding-right: 10px;
+  width: auto;
+  height: auto;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.tabStripClosable .tabLeft {
+  padding-right: 19px;
+}
+
+.tabStripTop .tabStripInner {
+  gwt-sprite: "tabCenter";
+  height: auto;
+}
+
+.tabStripTop .tabStripOver .tabRight {
+  gwt-sprite: "tabLeftOver";
+  width: auto;
+  height: auto;
+}
+
+.tabStripTop .tabStripOver .tabLeft {
+  gwt-sprite: "tabRightOver";
+  width: auto;
+  height: auto;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.tabStripTop .tabStripOver .tabStripInner {
+  gwt-sprite: "tabCenterOver";
+  height: auto;
+}
+
+.tabStripTop .tabStripActive .tabRight {
+  gwt-sprite: "tabLeftActive";
+  width: auto;
+  height: auto;
+}
+
+.tabStripTop .tabStripActive .tabLeft {
+  gwt-sprite: "tabRightActive";
+  width: auto;
+  height: auto;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.tabStripTop .tabStripActive .tabStripInner {
+  gwt-sprite: "tabCenterActive";
+  height: auto;
+}
+
+.tabHeader, 
+.tabFooter {
+  background-color: #eaeaea;
+  border-color: #d0d0d0;
+}
+
+.tabStripTop {
+  gwt-sprite: "tabStripBackground";
+  background-color: #dbdbdb;
+  border-bottom-color: #d0d0d0;
+  height: auto;
+  overflow: visible;
+}
+
+.tabStripBottom {
+  gwt-sprite: "tabStripBottomBackground";
+  background-color: #d0d0d0;
+  border-top-color: #dbdbdb;
+  height: auto;
+  overflow: visible;
+}
+
+.tabStrip span.tabStripText {
+  font: normal 11px tahoma, arial, helvetica;
+  color: #646464;
+}
+
+.tabStripOver span.tabStripText {
+  color: #3c3c3c;
+}
+
+.tabStripActive span.tabStripText {
+  color: #3c3c3c;
+  font-weight: bold;
+}
+
+.tabStripDisabled .tabsText {
+  color: #aaa;
+}
+
+.tabStripBottom .tabRight {
+  gwt-sprite: "bottomInactiveRightBackground";
+  background-position: bottom right;
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.tabStripBottom .tabLeft {
+  gwt-sprite: "bottomInactiveLeftBackground";
+  background-position: bottom left;
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.tabStripBottom .tabStripActive .tabRight {
+  gwt-sprite: "bottomRightBackground";
+  background-position: bottom left;
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.tabStripBottom .tabStripActive .tabLeft {
+  gwt-sprite: "bottomLeftBackground";
+  background-position: bottom right;
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+.tabStrip .tabStripClosable a.tabStripClose {
+  gwt-sprite: "tabClose";
+}
+
+.tabStrip .tabStripClosable a.tabStripClose:hover {
+  gwt-sprite: "tabClose";
+}
+
+.tabBody {
+  border-color: #d0d0d0;
+  background-color: #fff;
+}
+
+.tabBodyTop {
+  border-top: 0 none;
+}
+
+.tabBodyBottom {
+  border-bottom: 0 none;
+}
+
+.tabScrollerLeft {
+  gwt-sprite: "scrollerLeft";
+  border-bottom-color: #d0d0d0;
+}
+
+.tabScrollerLeftOver {
+  gwt-sprite: "scrollerLeftOver";
+}
+
+.tabScrollerRight {
+  gwt-sprite: "scrollerRight";
+  border-bottom-color: #d0d0d0;
+}
+
+.tabScrollerRightOver {
+  gwt-sprite: "scrollerRightOver";
+}
+
+.tabBbar .xToolbar, 
+.tabTbar .xToolbar {
+  border-color: #d0d0d0;
+}
+
+.tabNoborder .tabBodyNoborder {
+  border-width: 0;
+}
+
+.tabNoborder .tabHeaderNoborder {
+  border-width: 0 0 1px 0;
+}
+
+.tabNoborder .tabFooterNoborder {
+  border-width: 1px 0 0 0;
+}
+
+.tabBbarNoborder .xToolbar {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+}
+
+.tabTbarNoborder .xToolbar {
+  border-width: 0 0 1px;
+  border-style: solid;
+}
+
+.tabBbarNoborder .xToolbar {
+  border-top-color: #d0d0d0;
+}
+
+.tabTbarNoborder .xToolbar {
+  border-bottom-color: #d0d0d0;
+}

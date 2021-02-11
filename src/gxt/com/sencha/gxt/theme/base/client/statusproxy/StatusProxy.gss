@@ -1,0 +1,75 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+
+.proxy {
+  position: absolute;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+  z-index: 15000;
+}
+
+.dragGhost {
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  border: 1px solid;
+  padding: 3px;
+  padding-left: 20px;
+  white-space: nowrap;
+}
+
+.dropIcon {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.dropDisallowed .dropIcon {
+  gwt-sprite: "dropNotAllowed";
+}
+
+.dropAllowed .dropIcon {
+  gwt-sprite: "dropAllowed";
+}

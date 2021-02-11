@@ -1,0 +1,114 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+
+.menu {
+  border: 1px solid;
+  z-index: 15000;
+  zoom: 1;
+  background: repeat-y;
+  outline: 0 none;
+}
+
+@if (is("user.agent", "gecko1_8") || is("user.agent", "gecko")) {
+  .menu {
+    -moz-outline: none;
+  }
+}
+
+@if (is("user.agent", "ie8")) {
+  .menu {
+    zoom: 1;
+    overflow: hidden;
+  }
+}
+
+.menu a {
+  text-decoration: none !important;
+}
+
+.menuList {
+  padding: 2px;
+  background: transparent;
+  border: 0 none;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+
+@if (is("user.agent", "ie8")) {
+  .menuList {
+    position: relative;
+  }
+}
+
+.dateMenu {
+  padding: 0 !important;
+}
+
+.dateMenu .menuList {
+  padding: 0;
+}
+
+.menu .menuScroller {
+  margin: 0;
+  width: 100%;
+  background-position: center;
+}
+
+.menu .menuScroller {
+  background-repeat: no-repeat;
+  height: 8px;
+  line-height: 8px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.menu .menuScrollerActive {
+  height: 6px;
+  line-height: 6px;
+}
+
+.menuListItemIndent {
+  padding-left: 27px !important;
+}
+
+.menuRadioGroup {
+}
+
+.noSeparator {
+  background-image: none;
+}

@@ -1,0 +1,133 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+
+.legend {
+  overflow: hidden;
+}
+
+.toolWrap {
+}
+
+.header {
+}
+
+.fieldSet {
+  border: 1px solid;
+  overflow: hidden;
+  display: block;
+  padding: 5px 9px 10px 9px;
+}
+
+@if (is("user.agent", "safari") || is("user.agent", "chrome")) {
+  .fieldSet {
+    -webkit-padding-before: 5px;
+    -webkit-padding-after: 10px;
+  }
+}
+
+@if (is("user.agent", "ie8") || is("user.agent", "ie9")) {
+  .body {
+    zoom: 1;
+  }
+
+  .fieldSet legend {
+    margin-bottom: 5px;
+  }
+}
+
+@if (is("user.agent", "ie9")) {
+  .fieldSet legend {
+    margin-bottom: 2px;
+  }
+}
+
+.body {
+  overflow: hidden;
+}
+
+.fieldSet legend .toolWrap {
+  margin-right: 3px;
+  margin-left: 0;
+  float: left !important;
+}
+
+.fieldSet legend input {
+  margin-right: 3px;
+  float: left !important;
+  height: 13px;
+  width: 13px;
+}
+
+fieldset.collapsed {
+  padding-bottom: 0 !important;
+  border-width: 1px 1px 0 1px !important;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+fieldset.collapsed .body {
+  visibility: hidden;
+  position: absolute;
+  left: -1000px;
+  top: -1000px;
+}
+
+.noborder {
+  border: 0 none transparent;
+}
+
+.noborder legend {
+  margin-left: -3px;
+}
+
+@if (is("user.agent", "ie8") || is("user.agent", "ie9")) {
+  .noborder legend {
+    position: relative;
+    margin-bottom: 23px;
+  }
+
+  .noborder legend span {
+    position: absolute;
+    left: 16px;
+  }
+}
+
+.header, 
+.fieldSet legend>div {
+  padding-top: 1px;
+}

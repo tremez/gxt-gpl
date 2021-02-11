@@ -1,0 +1,127 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+
+.datePicker {
+  border-color: #1b376c;
+  background-color: #fff;
+}
+
+.daysWrap td {
+  gwt-sprite: "footer";
+  height: auto;
+}
+
+.middle, 
+.monthLeft, 
+.monthRight {
+  color: #fff;
+  font: bold 11px "sans serif", tahoma, verdana, helvetica;
+}
+
+.inner th {
+  background-color: #dfecfb;
+  border-bottom-color: #a3bad9;
+  font: normal 10px arial, helvetica, tahoma, sans-serif;
+  color: #233d6d;
+}
+
+.inner td {
+  border-color: #fff;
+}
+
+.inner a {
+  font: normal 11px arial, helvetica, tahoma, sans-serif;
+  color: #000;
+}
+
+.dateActive {
+  color: #000;
+}
+
+.inner .dateSelected a {
+  background-color: #dfecfb;
+  border-color: #8db2e3;
+}
+
+.dateToday a {
+  border-color: darkred;
+}
+
+.dateSelected span {
+  font-weight: bold;
+}
+
+.inner .datePrevious a, 
+.inner .dateNext a {
+  color: #aaa;
+}
+
+.dateDisabled a {
+  background-color: #eee;
+  color: #bbb;
+}
+
+.monthPicker {
+  background-color: #fff;
+}
+
+.monthPicker td {
+  font: normal 11px arial, helvetica, tahoma, sans-serif;
+}
+
+.monthButtons {
+  background-color: #dfecfb;
+}
+
+.monthButtons>td {
+  border-top-color: #c5d2df;
+}
+
+.month a, 
+.year a {
+  color: #15428b;
+}
+
+.monthSelected a {
+  background-color: #dfecfb;
+  border-color: #8db2e3;
+}
+
+.monthSep {
+  border-right-color: #c5d2df;
+}

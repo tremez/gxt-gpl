@@ -1,0 +1,175 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+@external x-toolbar-mark;
+
+.left div, 
+.right div {
+  width: 3px;
+}
+
+.x-toolbar-mark .left, 
+.x-toolbar-mark .content, 
+.x-toolbar-mark .right {
+  background: none;
+}
+
+.x-toolbar-mark .topLeft, 
+.x-toolbar-mark .top, 
+.x-toolbar-mark .topRight {
+  background-image: none;
+}
+
+.x-toolbar-mark .bottomLeft, 
+.x-toolbar-mark .bottom, 
+.x-toolbar-mark .bottomRight {
+  background-image: none;
+}
+
+.over .content {
+  gwt-sprite: "backgroundOverBorder";
+  height: 100%;
+  width: 100%;
+}
+
+.over .topLeft {
+  gwt-sprite: "topLeftOverBorder";
+}
+
+.over .top {
+  gwt-sprite: "topOverBorder";
+}
+
+.over .topRight {
+  gwt-sprite: "topRightOverBorder";
+}
+
+.over .bottomLeft {
+  gwt-sprite: "bottomLeftOverBorder";
+}
+
+.over .bottom {
+  gwt-sprite: "bottomOverBorder";
+}
+
+.over .right {
+  gwt-sprite: "rightOverBorder";
+}
+
+.over .bottomRight {
+  gwt-sprite: "bottomRightOverBorder";
+}
+
+.over .left {
+  gwt-sprite: "leftOverBorder";
+}
+
+.focus .content {
+  gwt-sprite: "backgroundOverBorder";
+  height: 100%;
+  width: 100%;
+}
+
+.focus .topLeft {
+  gwt-sprite: "topLeftOverBorder";
+}
+
+.focus .top {
+  gwt-sprite: "topOverBorder";
+}
+
+.focus .topRight {
+  gwt-sprite: "topRightOverBorder";
+}
+
+.focus .bottomLeft {
+  gwt-sprite: "bottomLeftOverBorder";
+}
+
+.focus .bottom {
+  gwt-sprite: "bottomOverBorder";
+}
+
+.focus .right {
+  gwt-sprite: "rightOverBorder";
+}
+
+.focus .bottomRight {
+  gwt-sprite: "bottomRightOverBorder";
+}
+
+.focus .left {
+  gwt-sprite: "leftOverBorder";
+}
+
+.pressed .content {
+  gwt-sprite: "backgroundPressedBorder";
+  height: 100%;
+  width: 100%;
+}
+
+.pressed .topLeft {
+  gwt-sprite: "topLeftPressedBorder";
+}
+
+.pressed .top {
+  gwt-sprite: "topPressedBorder";
+}
+
+.pressed .topRight {
+  gwt-sprite: "topRightPressedBorder";
+}
+
+.pressed .bottomLeft {
+  gwt-sprite: "bottomLeftPressedBorder";
+}
+
+.pressed .bottom {
+  gwt-sprite: "bottomPressedBorder";
+}
+
+.pressed .right {
+  gwt-sprite: "rightPressedBorder";
+}
+
+.pressed .bottomRight {
+  gwt-sprite: "bottomRightPressedBorder";
+}
+
+.pressed .left {
+  gwt-sprite: "leftPressedBorder";
+}

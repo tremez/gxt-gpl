@@ -1,0 +1,84 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+
+div.fieldItem {
+  display: block;
+  padding-bottom: 5px;
+  position: relative;
+  font: 12px tahoma, arial, verdana, sans-serif;
+}
+
+.fieldItemLabelTop {
+  padding-bottom: 6px;
+}
+
+.fieldItem .fieldLabel {
+  clear: left;
+  display: block;
+  float: left;
+  padding: 3px 0 0;
+  position: relative;
+  z-index: 2;
+  -moz-user-select: none;
+  font: 12px tahoma, arial, verdana, sans-serif;
+}
+
+.fieldItemLabelTop .fieldLabel {
+  width: auto !important;
+  float: none !important;
+  clear: none;
+  display: inline;
+  margin-bottom: 4px;
+  position: static;
+}
+
+.fieldItemLabelTop .fieldElement {
+  padding-left: 0 !important;
+  padding-top: 4px;
+}
+
+.fieldElement {
+}
+
+.clearLeft {
+  clear: left;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+}

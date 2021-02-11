@@ -1,0 +1,90 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+
+.editor {
+  position: absolute;
+}
+
+.label {
+  padding: 2px 3px 3px 0;
+  font-size: 12px;
+}
+
+.outer {
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #a0a0a0;
+  background-color: #ebf2fc;
+}
+
+.inner {
+  border-top: 1px solid #f6f9fe;
+  border-bottom: 1px solid #d6e4f8;
+  padding: 0 0 0 0;
+}
+
+.body {
+  height: 25px;
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  top: 27px;
+}
+
+.buttonsLeft {
+  gwt-sprite: "editorButtonLeft";
+  padding-left: value('editorButtonLeft.getWidth', 'px');
+  zoom: 1;
+  height: 31px;
+  width: auto;
+}
+
+.buttonsRight {
+  gwt-sprite: "editorButtonRight";
+  background-position: right 0;
+  padding-right: value('editorButtonRight.getWidth', 'px');
+  overflow: visible;
+  width: auto;
+  height: auto;
+}
+
+.buttonsContent {
+  gwt-sprite: "editorButtonBackground";
+  background-color: #ebf2fc;
+}

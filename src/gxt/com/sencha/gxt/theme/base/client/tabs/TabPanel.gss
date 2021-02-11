@@ -1,0 +1,342 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+
+.tab {
+  overflow: hidden;
+}
+
+.tab {
+  outline: none;
+}
+
+.tabHeader, 
+.tabFooter {
+  border: 1px solid;
+  overflow: hidden;
+}
+
+.tabHeader {
+  border: 1px solid;
+  padding-bottom: 2px;
+}
+
+.tabFooter {
+  border: 1px solid;
+  padding-top: 2px;
+}
+
+.tabStripWrap {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@if (!is("user.agent", "ie8")) {
+  .tabStrip {
+    display: block;
+    width: 1000000px;
+  }
+}
+@else  {
+  .tabStrip {
+    display: block;
+    width: 65520px;
+  }
+}
+
+.tabStripTop {
+  margin-top: 1px;
+  background: repeat-x bottom;
+  border-bottom: 1px solid;
+}
+
+.tabStripBottom {
+  padding-bottom: 1px;
+  background: repeat-x top;
+  border-top: 1px solid;
+  border-bottom: 0 none;
+}
+
+.tabStrip li {
+  float: left;
+  position: relative;
+  margin-left: 2px;
+}
+
+.tabStrip li.tabEdge {
+  float: left;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 none !important;
+  font-size: 1px !important;
+  line-height: 1px !important;
+  overflow: hidden;
+  background: transparent !important;
+  width: 1px;
+}
+
+.tabStrip a, 
+.tabStrip span, 
+.tabStrip em {
+  display: block;
+}
+
+.tabStrip a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.tabStrip a {
+  outline: none;
+}
+
+.tabStripInner {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tabStrip span.tabStripText {
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.tabStripTop .tabWithIcon .tabRight {
+  padding-left: 6px;
+}
+
+.tabStrip .tabWithIcon span.tabStripText {
+  padding-left: 20px;
+  background-position: 0 3px;
+  background-repeat: no-repeat;
+}
+
+.tabStripActive, 
+.tabStripActive a.tabRight {
+  cursor: default;
+}
+
+.tabStripActive span.tabStripText {
+  cursor: default;
+}
+
+.tabStripDisabled .tabsText {
+  cursor: default;
+}
+
+.tabBody {
+  overflow: hidden;
+}
+
+.tabBwrap {
+  overflow: hidden;
+}
+
+@if (is("user.agent", "ie8") || is("user.agent", "ie9")) {
+  .tabStrip .tabRight {
+    position: relative;
+  }
+}
+
+.tabStripTop .tabStripActive .tabRight {
+  margin-bottom: -1px;
+}
+
+.tabStripTop .tabStripActive .tabRight span.tabStripText {
+  padding-bottom: 5px;
+}
+
+.tabStripBottom .tabStripActive .tabRight {
+  margin-top: -1px;
+}
+
+.tabStripBottom .tabStripActive .tabRight span.tabStripText {
+  padding-top: 5px;
+}
+
+.tabStripBottom .tabLeft {
+  padding: 0 10px;
+}
+
+.tabStripBottom .tabRight {
+  padding: 0;
+}
+
+.tabStrip .tabStripClose {
+  display: none;
+}
+
+.tabStripClosable {
+  position: relative;
+}
+
+.tabStripClosable .tabLeft {
+  padding-right: 19px;
+}
+
+.tabStrip .tabStripClosable a.tabStripClose {
+  background-repeat: no-repeat;
+  display: block;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+@if (is("user.agent", "ie8")) {
+  .tabStrip .tabStripClosable a.tabStripClose {
+    filter: alpha(opacity=60);
+  }
+}
+@else  {
+  .tabStrip .tabStripClosable a.tabStripClose {
+    opacity: 0.6;
+  }
+}
+
+.tabStrip .tabStripActive a.tabStripClose {
+  opacity: 0.8;
+}
+
+.tabStrip .tabStripClosable a.tabStripClose:hover {
+  opacity: 1;
+}
+
+.tabBody {
+  border: 1px solid;
+}
+
+.tabBodyTop {
+  border-top: 0 none;
+}
+
+.tabBodyBottom {
+  border-bottom: 0 none;
+}
+
+.tabScrollerLeft {
+  background: transparent no-repeat -18px 0;
+  border-bottom: 1px solid;
+  width: 18px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.tabScrollerLeftDisabled, 
+.tabScrollerRightDisabled {
+  cursor: default;
+}
+
+@if (is("user.agent", "ie8")) {
+  .tabScrollerLeftDisabled, 
+  .tabScrollerRightDisabled {
+    filter: alpha(opacity=50);
+  }
+}
+@else  {
+  .tabScrollerLeftDisabled, 
+  .tabScrollerRightDisabled {
+    opacity: 0.5;
+  }
+}
+
+.tabScrollerRight {
+  background: transparent no-repeat 0 0;
+  border-bottom: 1px solid;
+  width: 18px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.tabScrollingBottom .tabScrollerLeft, 
+.tabScrollingBottom .tabScrollerRight {
+  margin-top: 1px;
+}
+
+.tabScrolling .tabStripWrap {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.tabScrolling {
+  position: relative;
+}
+
+.tabBbar .xToolbar {
+  border: 1px solid;
+  border-top: 0 none;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.tabTbar .xToolbar {
+  border: 1px solid;
+  border-top: 0 none;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.tabStrip li .tabImage {
+  position: absolute;
+}
+
+@if (is("user.agent", "ie8")) {
+  .tabStrip li .tabImage {
+    top: 4px;
+    left: 6px;
+  }
+}
+@else  {
+  .tabStrip li .tabImage {
+    top: 3px;
+    left: 5px;
+  }
+}
+
+.tabStripTop .tabRight {
+  top: 0;
+}

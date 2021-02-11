@@ -1,0 +1,229 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+
+.close {
+  gwt-sprite: "closeIcon";
+}
+
+.closeOver {
+  gwt-sprite: "closeOverIcon";
+}
+
+.collapse {
+  gwt-sprite: "collapseIcon";
+}
+
+.collapseOver {
+  gwt-sprite: "collapseOverIcon";
+}
+
+.doubleDown {
+  gwt-sprite: "doubleDownIcon";
+}
+
+.doubleDownOver {
+  gwt-sprite: "doubleDownOverIcon";
+}
+
+.doubleLeft {
+  gwt-sprite: "doubleLeftIcon";
+}
+
+.doubleLeftOver {
+  gwt-sprite: "doubleLeftOverIcon";
+}
+
+.doubleRight {
+  gwt-sprite: "doubleRightIcon";
+}
+
+.doubleRightOver {
+  gwt-sprite: "doubleRightOverIcon";
+}
+
+.doubleUp {
+  gwt-sprite: "doubleUpIcon";
+}
+
+.doubleUpOver {
+  gwt-sprite: "doubleUpOverIcon";
+}
+
+.down {
+  gwt-sprite: "downIcon";
+}
+
+.downOver {
+  gwt-sprite: "downOverIcon";
+}
+
+.expand {
+  gwt-sprite: "expandIcon";
+}
+
+.expandOver {
+  gwt-sprite: "expandOverIcon";
+}
+
+.gear {
+  gwt-sprite: "gearIcon";
+}
+
+.gearOver {
+  gwt-sprite: "gearOverIcon";
+}
+
+.left {
+  gwt-sprite: "leftIcon";
+}
+
+.leftOver {
+  gwt-sprite: "leftOverIcon";
+}
+
+.maximize {
+  gwt-sprite: "maximizeIcon";
+}
+
+.maximizeOver {
+  gwt-sprite: "maximizeOverIcon";
+}
+
+.minimize {
+  gwt-sprite: "minimizeIcon";
+}
+
+.minimizeOver {
+  gwt-sprite: "minimizeOverIcon";
+}
+
+.minus {
+  gwt-sprite: "minusIcon";
+}
+
+.minusOver {
+  gwt-sprite: "minusOverIcon";
+}
+
+.pin {
+  gwt-sprite: "pinIcon";
+}
+
+.pinOver {
+  gwt-sprite: "pinOverIcon";
+}
+
+.unpin {
+  gwt-sprite: "unpinIcon";
+}
+
+.unpinOver {
+  gwt-sprite: "unpinOverIcon";
+}
+
+.plus {
+  gwt-sprite: "plusIcon";
+}
+
+.plusOver {
+  gwt-sprite: "plusOverIcon";
+}
+
+.print {
+  gwt-sprite: "printIcon";
+}
+
+.printOver {
+  gwt-sprite: "printOverIcon";
+}
+
+.question {
+  gwt-sprite: "questionIcon";
+}
+
+.questionOver {
+  gwt-sprite: "questionOverIcon";
+}
+
+.refresh {
+  gwt-sprite: "refreshIcon";
+}
+
+.refreshOver {
+  gwt-sprite: "refreshOverIcon";
+}
+
+.restore {
+  gwt-sprite: "restoreIcon";
+}
+
+.restoreOver {
+  gwt-sprite: "restoreOverIcon";
+}
+
+.right {
+  gwt-sprite: "rightIcon";
+}
+
+.rightOver {
+  gwt-sprite: "rightOverIcon";
+}
+
+.save {
+  gwt-sprite: "saveIcon";
+}
+
+.saveOver {
+  gwt-sprite: "saveOverIcon";
+}
+
+.search {
+  gwt-sprite: "searchIcon";
+}
+
+.searchOver {
+  gwt-sprite: "searchOverIcon";
+}
+
+.up {
+  gwt-sprite: "upIcon";
+}
+
+.upOver {
+  gwt-sprite: "upOverIcon";
+}

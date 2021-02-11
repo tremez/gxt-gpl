@@ -1,0 +1,133 @@
+/**
+ * Sencha GXT 4.0.0 - Sencha for GWT
+ * Copyright (c) 2006-2015, Sencha Inc.
+ *
+ * licensing@sencha.com
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * ================================================================================
+ * Open Source License
+ * ================================================================================
+ * This version of Sencha GXT is licensed under the terms of the Open Source GPL v3
+ * license. You may use this license only if you are prepared to distribute and
+ * share the source code of your application under the GPL v3 license:
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * If you are NOT prepared to distribute and share the source code of your
+ * application under the GPL v3 license, other commercial and oem licenses
+ * are available for an alternate download of Sencha GXT.
+ *
+ * Please see the Sencha GXT Licensing page at:
+ * http://www.sencha.com/products/gxt/license/
+ *
+ * For clarification or additional options, please contact:
+ * licensing@sencha.com
+ * ================================================================================
+ *
+ *
+ * ================================================================================
+ * Disclaimer
+ * ================================================================================
+ * THIS SOFTWARE IS DISTRIBUTED "AS-IS" WITHOUT ANY WARRANTIES, CONDITIONS AND
+ * REPRESENTATIONS WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE
+ * IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY,
+ * FITNESS FOR A PARTICULAR PURPOSE, DURABILITY, NON-INFRINGEMENT, PERFORMANCE AND
+ * THOSE ARISING BY STATUTE OR FROM CUSTOM OR USAGE OF TRADE OR COURSE OF DEALING.
+ * ================================================================================
+ */
+
+.contentArea {
+  position: relative;
+  outline: none;
+}
+
+.content {
+  gwt-sprite: "background";
+  overflow: visible;
+  height: auto;
+  width: auto;
+}
+
+.topLeft {
+  gwt-sprite: "topLeftBorder";
+  padding-left: value('topLeftBorder.getWidth', 'px');
+  zoom: 1;
+  width: auto;
+  height: auto;
+}
+
+.top {
+  gwt-sprite: "topBorder";
+  width: auto;
+}
+
+.topRight {
+  gwt-sprite: "topRightBorder";
+  background-repeat: no-repeat;
+  background-position: right 0;
+  zoom: 1;
+  padding-right: value('topRightBorder.getWidth', 'px');
+  width: auto;
+}
+
+.bottomLeft {
+  gwt-sprite: "bottomLeftBorder";
+  background-repeat: no-repeat;
+  width: auto;
+  background-position: 0 bottom;
+  padding-left: value('bottomLeftBorder.getWidth', 'px');
+  zoom: 1;
+  line-height: 1px;
+  font-size: 1px;
+}
+
+.bottom {
+  gwt-sprite: "bottomBorder";
+  background-position: 0 bottom;
+  zoom: 1;
+  width: auto;
+  overflow: visible;
+  height: value('bottomBorder.getHeight', 'px');
+  line-height: 1px;
+  font-size: 1px;
+}
+
+.bottomRight {
+  gwt-sprite: "bottomRightBorder";
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-right: value('bottomRightBorder.getWidth', 'px');
+  zoom: 1;
+  width: auto;
+  height: auto;
+  line-height: 1px;
+  font-size: 1px;
+}
+
+.left {
+  gwt-sprite: "leftBorder";
+  padding-left: value('bottomLeftBorder.getWidth', 'px');
+  zoom: 1;
+  overflow: visible;
+  height: auto;
+  width: auto;
+}
+
+.right {
+  gwt-sprite: "rightBorder";
+  background-repeat: repeat-y;
+  background-position: right 0;
+  padding-right: value('rightBorder.getWidth', 'px');
+  overflow: visible;
+  width: auto;
+  height: auto;
+}
+
+.bodyWrap {
+}
+
+.over {
+}
+
+.pressed {
+}
